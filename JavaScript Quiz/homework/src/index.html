@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HW_8</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <button id="start-btn" class="start-btn control-btn">Start new game</button>
+      <button id="skip-btn" class="skip-btn control-btn hide">Skip question</button>
+    </div>
+    <div id="question-container" class="hide">
+      <div id="question" class="half-bg">jjkjkjkjkjkfjkjkfjfjkfdjkdfjfdjkfjkfdjkdfjkfdjkdfjkdfjkfd</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div id="total" class="hide">
+      <p id="prize">Total prize:</p>
+      <p id="current-prize">Prize on current round:</p>
+    </div>
+    <div id="game-over" class="game-over final-prize-style">
+      <p>Game over.Your prize is:</p>
+    </div>
+  </div>
+  <script src="js/questions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
